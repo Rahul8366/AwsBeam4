@@ -1,0 +1,155 @@
+java project class --->
+-------------------------
+project -> calculator project
+package -> jspiders
+class ->solution.java
+
+
+//abstract class
+//contract of abstract-> ruels
+//1. make the class as abstract
+//2. override the abstract method
+
+//interfaces 
+ interface behaving as public static final variables
+inteface between 2 system one is clint system another system is object with serivices
+//interface blue print of calss  blue print of object
+
+//while overriding a method,access modifier should be same or higher visibility.
+
+
+// switch case
+ 
+//system.exit(0); it is used to terminate the jvm program
+system is class 
+exist is method it is used exit the class
+given zero or 100 any number but best is 0 because 
+
+//been class 
+
+
+
+note
+<< >>   -> stereotypes  -> interface 
+<  >   -> generics  -> elements type
+
+
+//1. << calculator>>
+ 2. add (int,int):int
+sub mul div
+
+//all the methods are automaticaly public & abstract final
+1. calculatorImpl  is-a relation -> calculator
+2.contract of abstract ->override 5 methods
+
+
+//scanner 
+//create object calculatorImpl
+//sop -> choice -> 1:addition 2,3,4,5:exit
+//switch statements case 1:defult
+
+
+upcasting downcasting
+ex//--- india i=new karnataka();
+1)upcast visblity super class //creating object subclass storing in superclass refrence variable//manditory is is-a relation
+2)downcast //superclass refrence down cast to subclass
+karanataka k=(karnataka)i; to achive downcast is upcast manditory //visiblity both super and sub class
+
+
+//map
+student
+age,name
+constrctor
+toString()
+
+test
+main()
+Map -> LHM
+put 3 value
+\convert List to ArrayList
+travrse  for each loop
+1.get the student object (value) from map
+2.add value(student Obeject) into array list
+3.print the value(Student Object)
+
+//comprable and comparator studey 
+
+
+hotel-> name,ratings -> constrctor->toString()
+map -> LinkedHashMap<Integer,hotel>
+5 entryes
+convert map into set
+list -> arraylist
+get the value,add into arralist. and print it
+-----------------------------------------------
+from the array list,print the hotel name whoese ratings are above 4.0
+
+
+//comapre To
+
+1.car -> cost -> constructor -> ToString() -> cost:1000
+2.SortCAr -> main() -> 3 car Oject (200,300,100) ->
+Add into TreeSet -> Traverse it using for each loop
+
+
+//Hotel -> name,ratings -> constructor 
+-> toString() -> name: taj Ratings:4.5
+
+2.SortHotel -> main() -> 3 hotel object ->
+Add into TreeSet -> traverse it using for each loop
+
+classCAstException occure
+
+/**
+    this -> object to be inserted h-> alrady existing object
+    -To compare string object & double we are taking the help of compareTo()
+    of starting class &comapreTo() Double class
+    1.string comparesion ->name
+    Assending Order -> return this.name.compareTo(h,.name);
+    desending order -> retiurn h.name.compareTo(this.name);
+    2.double comaprision ->ratings 
+    Assending order-> return this.ratings.comapreTO(h.ratings);
+    Dessendin order -> retiurn h.ratings.compareTo(this.ratings);
+    **/
+//rules comparable
+/**
+ <<Comaprable>> -> PreedefineInterface java.lang package JDK1.2
+ 1.class should implements comparable interface.
+ 2.sepecify genrics
+ 3.Override compareTo() ->public int comapreTo(Element e);
+**/
+
+
+
+//comparator
+class->student var->age instial constrctor
+ Override ->Tostring Age is 20
+main->solution mainmathod
+ done 3 object of students
+add it into treeSet traverse using for loop
+
+
+//rules comparrator
+comparator -> Interface -> java.util ->JDK1.2
+1.Create a new class which implements comparator interface & import from java util package.
+2.Specifiying genrics
+3.Override compare().syntax:=public int compare(Element e1,element e2);
+4.create an object of sorting logic class & pas it to constructor of treeset.
+
+//project
+1-> student DB Project
+2-> sdms
+3->Solution.java
+<<StudentManagementSystem>>
+-------------------------------
+addStudent():Void
+DisplayStudent():Void
+DisplayAllStudent():Void
+RemoveStudent():Void
+RemoveAllStudents():void
+UpdateStudent:Void
+countStudent():void
+SortStudent():Void
+getStudentWithoutHighestMarks():void
+getStudentWithoutLowestMarks():void
+->after create class StudentManagementSystem
